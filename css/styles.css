@@ -33,7 +33,9 @@ img{display: block;}
     gap: 40px;
     padding: 24px 0;
     position: relative;
-    transition-property:color;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* transition-property:color; */
 }
 .main-menu::after{
     content: "";
@@ -41,10 +43,13 @@ img{display: block;}
     width: 100%;
     height: 4px;
     left: 0;
-    bottom: 0;
+    /* bottom: 0; */
+    bottom: -1px;
     display: block;
     background-color: var(--color-focus-blu);
     transform: scaleX(0);
+     bottom: -1px;
+    border-radius: 2px;
     /* transition: var(--color-focus-blu); */
     /* transform: scaleX(0,5); */
     transition: transform 250ms var(--timing-function);
@@ -185,8 +190,9 @@ img{display: block;}
     color: var(--color-main-menu);
     margin-right: auto;
     /* transition-property: all; */
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    /* transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
+    transition: color 250ms var(--timing-function);
 }
 .main-email-tel:hover,
 .main-email-tel:focus {
@@ -236,8 +242,9 @@ img{display: block;}
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     /* transition-property: all; */
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                color 250ms var(--timing-function);
+    }
    
 }
 .main-button:hover,
@@ -341,6 +348,7 @@ img{display: block;}
     padding: 12px 24px;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
+    transition: color 250ms var(--timing-function);
 }
 
 .portfolio-filter:hover, 
@@ -351,9 +359,7 @@ img{display: block;}
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 
                 0px 2px 1px rgba(0, 0, 0, 0.08),    
                 0px 2px 2px rgba(0, 0, 0, 0.12);
-                /* transition-property: all; */
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
 
 }
 .portfolio-h-two{

@@ -43,7 +43,7 @@
         <div class="container container-first">
           <h1 class="main-h-first animate__animated animate__bounce">Effective Solutions for Your Business</h1>
 
-          <button  type="button" class="main-button" data-open-modal>Order Service</button>
+          <button  type="button" class="main-button" data-modal-open>Order Service</button>
         </div>
       </section>
 
@@ -400,10 +400,11 @@
 
       </div>
     </footer>
+
     <div class="backdrop is-hidden data-backdrop">
       <div class="modal">
           <p>  igfpiyfdktkkhyfkfkfufufufufiutfiutfoihhj </p>
-          <button type="button"   class="modal-close" data-close-modal> 
+          <button type="button"   class="modal-close" data-modal-close> 
             <svg class="modal-close-icon" width="8" height="8">
               <use href="./images/icons.svg#icon-close-black"></use>
             </svg>
@@ -414,8 +415,8 @@
     </div>
     <script>
       const refs={
-        openModalBtn: document.querySelector("[data-open-modal]"),
-        closeModalBtn: document.querySelector("[data-close-modal]"),
+        openModalBtn: document.querySelector("[data-modal-open]"),
+        closeModalBtn: document.querySelector("[data-modal-close]"),
         backdrop: document.querySelector("[data-backdrop]"),
       };
       refs.openModalBtn.addEventListener("click", toggleModal);
