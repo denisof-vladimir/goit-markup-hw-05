@@ -28,7 +28,8 @@ img{display: block;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--background-color-body);
+    /* color: var(--background-color-body); */
+    color: var(--color-focus-blu);
     display: block;
     gap: 40px;
     padding: 24px 0;
@@ -58,7 +59,7 @@ img{display: block;}
 
  .main-menu:hover,
  .main-menu:focus {
-        color: var(--color-focus-blu);
+        color: var(--background-color-body);
 }
 .nav-class {
     display: flex;
@@ -243,7 +244,7 @@ img{display: block;}
                 color 250ms var(--timing-function);
     }
    
-}
+
 .main-button:hover,
 .main-button:focus {
     background-color: var(--color-focus-blu);
@@ -361,7 +362,7 @@ img{display: block;}
                 0px 2px 2px rgba(0, 0, 0, 0.12);
     }
 
-}
+
 .portfolio-h-two{
     font-weight: 500;
     font-size: 20px;
@@ -479,8 +480,8 @@ img{display: block;}
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: border 250ms var(--timing-function),
-            background-color 250ms var(--timing-function);
+    transition: background-color 250ms var(--timing-function);
+            /* border 250ms var(--timing-function), */
 }
 .team-soc-link:hover,
 .team-soc-link:focus {
@@ -508,8 +509,8 @@ img{display: block;}
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: border 250ms var(--timing-function),
-            background-color 250ms var(--timing-function);
+    transition: background-color 250ms var(--timing-function);
+            /* border 1250ms var(--timing-function), */
 }
 
 .footer-soc-link:hover,
@@ -537,8 +538,9 @@ img{display: block;}
     align-items: center;
     justify-content: center;
     color:  #8e8f99;
-    transition: border-color 250ms var(--timing-function),
-                color 250ms var(--timing-function);
+    transition: 
+    color 250ms var(--timing-function);
+/* border-color 250ms var(--timing-function), */
 }
 .customer-link:hover,
 .customer-link:focus {
