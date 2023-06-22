@@ -103,7 +103,7 @@ img{display: block;}
     transform: translateY(0%);
 }
 
-.portfolio-list:focus .portfolio-h-two {
+.portfolio-list:hover .portfolio-h-two {
     transform: translateY(0%);
 }
 .portfolio-list{
@@ -197,9 +197,6 @@ img{display: block;}
     letter-spacing: 0.02em;
     color: var(--color-main-menu);
     margin-right: auto;
-    /* transition-property: all; */
-    /* transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
     transition: color 250ms var(--timing-function);
 }
 .main-email-tel:hover,
