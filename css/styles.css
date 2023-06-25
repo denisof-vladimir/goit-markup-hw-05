@@ -34,8 +34,8 @@ img{display: block;}
     gap: 40px;
     padding: 24px 0;
     position: relative;
-    transition: color 250ms var(--timing-function),
-                background-color 250ms var(--timing-function);
+    transition: color 250ms var(--timing-function);
+                /* background-color 250ms var(--timing-function); */
 }
 .drawt {
     transition: transform 250ms var(--timing-function),
@@ -123,8 +123,8 @@ img{display: block;}
 }
 .portfolio-list {
     display: block;
-    transition: box-shadow 250ms var(--timing-function), 
-                transform 250ms var(--timing-function);
+    transition: box-shadow 250ms var(--timing-function); 
+                /* transform 250ms var(--timing-function); */
 }
 .portfolio-list-card {
     padding: 32px 16px;
@@ -659,9 +659,9 @@ img{display: block;}
     padding: 0;
     cursor: pointer;
     transition: background-color 250ms var(--timing-function),
-                color 250ms var(--timing-function),
                 border 250ms var(--timing-function);
 
+            /* color 250ms var(--timing-function), */
     margin-left: auto;
     
 }
@@ -674,14 +674,14 @@ img{display: block;}
 .modal-close-icon {
    color: #2E2F42;
     /* color: black; */
-    transition: fill 250ms var(--timing-function),
-                background-color 250ms var(--timing-function);
+    transition: fill 250ms var(--timing-function);
+                /* background-color 250ms var(--timing-function); */
 }
 
 .modal-close-icon:hover,
 .modal-close-icon:focus {
     fill: #ffffff;
-    background-color: var(--color-focus-blu);
+    /* background-color: var(--color-focus-blu); */
 }
 
 .backdrop.is-hidden{
