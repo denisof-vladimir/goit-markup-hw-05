@@ -76,7 +76,7 @@ img{display: block;}
 
  .main-menu:hover,
  .main-menu:focus {
-        color: var(--portfolio-filter-color);
+        color: var(--color-focus-blu);
         
 }
 .nav-class {
