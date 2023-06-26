@@ -37,6 +37,7 @@ img{display: block;}
     transition: color 250ms var(--timing-function);
                
 }
+/* версия со всплывающим подчерком на ховере
 .main-menu::after {
     content: "";
     position: absolute;
@@ -50,8 +51,12 @@ img{display: block;}
     bottom: -1px;
     border-radius: 2px;
     transition: transform 250ms var(--timing-function);
+} 
+.main-menu:hover::after {
+    transform: scaleX(1);
 }
-/* версия с продчеркиванием текущей страницы
+*/
+
 .drawt {
     transition: color 250ms var(--timing-function);            
 }
@@ -68,16 +73,10 @@ img{display: block;}
      bottom: -1px;
     border-radius: 2px;
     transform: scaleX(1);
-} */
-
-.main-menu:hover::after {
-     transform: scaleX(1);
- }
-
+}
  .main-menu:hover,
  .main-menu:focus {
-        color: var(--background-color-body);
-        
+        color: var(--background-color-body);     
 }
 .nav-class {
     display: flex;
