@@ -28,8 +28,8 @@ img{display: block;}
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    /* color: var(--background-color-body); */
-    color: var(--color-focus-blu);
+    color: var(--background-color-body);
+    /* color: var(--color-focus-blu); */
     display: block;
     gap: 40px;
     padding: 24px 0;
@@ -76,7 +76,7 @@ img{display: block;}
 }
  .main-menu:hover,
  .main-menu:focus {
-        color: var(--background-color-body);     
+        color: var(--color-focus-blu);     
 }
 .nav-class {
     display: flex;
