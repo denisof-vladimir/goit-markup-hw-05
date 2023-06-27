@@ -3,7 +3,7 @@ body{
     color: var(--color-main-p);
     background-color: var(--title-color); }
 :root{
-    --title-color: #ffffff;
+        --title-color: #ffffff;
         --background-color-body: #2e2f42;
         --portfolio-filter-color: #4D5AE5;
         --portfolio-filter-background: #F4F4FD;
@@ -58,6 +58,7 @@ img{display: block;}
 */
 
 .drawt {
+    color: var(--color-focus-blu);
     transition: color 250ms var(--timing-function);            
 }
 .drawt::after{
